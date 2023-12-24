@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="images/LogoFull_2.svg" alt="logo" id="logo">
+        </div>
+        <div class="container-link">
+            <a href="index.html" class="link">
+                <img src="images/home.png" alt="home icon">
+                <span class="nav-link">Home</span>
+            </a>
+            <a href="swipe.html" class="link">
+                <img src="images/images.svg.png" alt="images icon">
+                <span class="nav-link">Swipe</span>
+            </a>
+            <a href="form.html" class="link active">
+                <img src="images/form.png" alt="form icon">
+                <span class="nav-link">Form</span>
+            </a>
+        </div>
+        <div class="dark-container">
+            <button class="dark-btn">Darkmode</button>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <header>
+            <div class="burger-icon">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <h1 id="title">Projet de semaine</h1>
+        </header>
+
+        <main>
+            <form>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Prénom" required>
+                <label for="mdp">Mot de passe</label>
+                <input type="password" id="mdp" placeholder="Mot de passe" required>
+                <p id="mdpError" class="error"></p>
+                <label for="mail">Mail</label>
+                <input type="email" id="mail" placeholder="exemple@gmail.com" required>
+                <input type="submit" id="submit">
+                <p id="mailError" class="error"></p>
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright 2023 Jarod Michel. All Rights Reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
