@@ -208,14 +208,14 @@ input::placeholder {
     font-size: 12px;
     color: red;
     position: relative;
-    top: -48px;
+    top: -40px;
 }
 
 #mailError {
     font-size: 12px;
     color: red;
     position: relative;
-    top: -157px;
+    top: -148px;
 }
 
 /* FIN FORM */
